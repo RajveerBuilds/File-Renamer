@@ -1,5 +1,5 @@
 import os
-folder_path = r"C:/testfolder"
+folder_path = input("Enter folder path: ").strip()
 os.listdir(folder_path)
 print(os.listdir(folder_path))
 for count, filename in enumerate(os.listdir(folder_path)):
